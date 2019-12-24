@@ -62,7 +62,7 @@ print('Depth of the resulting tree will be:', max_depth)
 print('Chosen best score after 5-cross validation in %:', scores_data.cross_val_score.max()*100, '%')
 clf = tree.DecisionTreeClassifier(criterion='entropy', max_depth=max_depth)
 clf.fit(X_train, y_train)
-print('Result after training',clf.score(X_test, y_test)*100, '5 of precision.')
+print('Result after training',clf.score(X_test, y_test)*100, '% of precision.')
 
 # remaking data frame to make plot
 scores_data_long = pd.melt(scores_data, id_vars=['max_depth'], value_vars=['train_score', 'test_score', 'cross_val_score'], var_name='set_type', value_name='score')
