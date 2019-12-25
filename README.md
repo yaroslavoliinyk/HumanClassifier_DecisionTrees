@@ -21,6 +21,7 @@ It shows scores after fitting of 3 different sets of data: with the same data we
 >![Three methods comparison](https://raw.githubusercontent.com/yaroslavoliinyk/HumanClassifier_DecisionTrees/master/pics/2.JPG)
 * You can also see what **depth** of our Decision Tree we chose and the precision.
 * After all the calculation done, you'll be able to see a graph, which represents these 3 scores. We chose the best validation score, because it's save from 
+>![Graph](https://raw.githubusercontent.com/yaroslavoliinyk/HumanClassifier_DecisionTrees/master/pics/3.JPG)
 overfitting
 * **After that the program ends with the resulting pecentage of correct answers**
 ### Have fun!
